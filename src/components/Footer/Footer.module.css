@@ -1,15 +1,16 @@
-/* MyFooter.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
 .footer {
-  background-color: #1d6b2b;
+  background-color: #47c0c9;
   color: white;
-  padding: 40px 80px;
+  padding: 50px 100px;
   font-family: Arial, sans-serif;
 }
 
 .container {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1.2fr 1fr;
-  gap: 40px;
+  gap: 35px;
 }
 
 .logoSection {

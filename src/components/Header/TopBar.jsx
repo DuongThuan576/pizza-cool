@@ -6,7 +6,7 @@ function TopBar() {
       {/* Logo và hotline */}
       <div className={styles.left}>
         <img
-          src="./img/logo.jpg"
+          src="./img/logo.png"
           alt="Pizza-Cool"
           className={styles.logo}
         />

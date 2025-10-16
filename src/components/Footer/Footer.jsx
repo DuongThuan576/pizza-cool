@@ -1,4 +1,3 @@
-// MyFooter.jsx
 import styles from "./Footer.module.css";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
@@ -8,7 +7,7 @@ function MyFooter() {
       <div className={styles.container}>
         {/* Logo + Hotline */}
         <div className={styles.logoSection}>
-          <img src="/img/logo.jpg" alt="Pizza Cool" className={styles.logo} />
+          <img src="./img/logo.png" alt="Pizza Cool" className={styles.logo} />
         </div>
 
         {/* Giới thiệu */}
