@@ -1,13 +1,13 @@
-import MyHeader from "./components/Header";
+import MyHeader from "./components/Header/Header";
 import MyFooter from "./components/Footer";
 import './App.css'
 
 function App() {
   return (
-    <>
-    <MyHeader></MyHeader>
-    <MyFooter></MyFooter>
-    </>
+    <div className="App">
+      <MyHeader></MyHeader>
+      <MyFooter></MyFooter>
+    </div>
   );
 }
 
